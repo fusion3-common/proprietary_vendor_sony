@@ -93,7 +93,6 @@ PRODUCT_PACKAGES += \
     libta
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/fusion3-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/fusion3-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/fusion3-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/fusion3-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -171,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/sony/fusion3-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
