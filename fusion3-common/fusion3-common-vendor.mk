@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/bin/ta2bin:system/bin/ta2bin \
-    vendor/sony/fusion3-common/proprietary/bin/ta_qmi_client:system/bin/ta_qmi_client \
     vendor/sony/fusion3-common/proprietary/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/sony/fusion3-common/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
@@ -67,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/fusion3-common/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/fusion3-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
+    vendor/sony/fusion3-common/proprietary/vendor/bin/ta_qmi_client:system/vendor/bin/ta_qmi_client \
     vendor/sony/fusion3-common/proprietary/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
     vendor/sony/fusion3-common/proprietary/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
     vendor/sony/fusion3-common/proprietary/vendor/camera/LGI08BN2_DW9714.dat:system/vendor/camera/LGI08BN2_DW9714.dat \
